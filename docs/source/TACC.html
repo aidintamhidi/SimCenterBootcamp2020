@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,32 +11,34 @@
   
 
   
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
   
   
   
 
   
-  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Emacs" href="emacs.html" />
-    <link rel="prev" title="Additional Resources" href="resources.html" /> 
+    <link rel="prev" title="Lecture Videos" href="lecture_videos.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -51,7 +52,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> Programming Bootcamp 2020
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Programming Bootcamp 2020
           
 
           
@@ -74,6 +75,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -84,25 +86,28 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="syllabus.html">Syllabus</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lecture_videos.html">Lecture Videos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="setupInstructions.html">Setup Instructions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="resources.html">Additional Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lecture_videos.html">Lecture Videos</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">TACC</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#accessing-the-system">Accessing the system</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#transferring-files-between-your-system-and-tacc">Transferring files between your system and TACC</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#basic-linux-commands">Basic Linux Commands</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#building-and-running-an-application">Building and Running an Application</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#alternative-access-via-browser">Alternative Access via Browser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setup-for-the-tapis-and-creating-an-app-session">Setup for the  TAPIS and Creating an App session</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="emacs.html">Emacs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="git.html">Git</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GUI.html">Graphical User Interface (GUI) Programming</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">Questions, Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Additional Resources</a></li>
 </ul>
 
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -141,7 +146,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>TACC</li>
     
@@ -257,6 +262,11 @@
 </pre></div>
 </div>
 </li>
+<li><p>To remove an <strong>empty</strong> directory named dir1 from current directory type:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rmdir</span> <span class="n">dir1</span>
+</pre></div>
+</div>
+</li>
 <li><p>To remove a directory named dir1 (and all it’s contents) from current directory type:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">-</span><span class="n">fr</span> <span class="n">dir1</span>
 </pre></div>
@@ -362,6 +372,34 @@ login1$
 </ol>
 </div></blockquote>
 </div>
+<div class="section" id="setup-for-the-tapis-and-creating-an-app-session">
+<h2>Setup for the  TAPIS and Creating an App session<a class="headerlink" href="#setup-for-the-tapis-and-creating-an-app-session" title="Permalink to this headline">¶</a></h2>
+<p>Later in week 2, we will be using the Tapis restful API to interact with TACC. By end of the session you will be able to do more with designsafe than any civil engineer not working for designsafe as we will be using the file systems, building apps and launching them on frontera using tapis from our desktop terminals.</p>
+<p>Before the session we need you to install tapis-cli on your systems.
+It is code developed in python that allows us to interact with TACC by calling tapis from the command line.</p>
+<p>It is installed through pip:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">tapis</span><span class="o">-</span><span class="n">cli</span>
+</pre></div>
+</div>
+<p>OR</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip3</span> <span class="n">install</span> <span class="n">tapis</span><span class="o">-</span><span class="n">cli</span>
+</pre></div>
+</div>
+<p>depending on your OS and python install.</p>
+<p>After installing please run the following in a terminal:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tapis</span> <span class="n">auth</span> <span class="n">init</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>For tenant name enter designsafe</p></li>
+<li><p>For username your tacc login</p></li>
+<li><p>For password your tacc password.</p></li>
+</ul>
+<p>For rest of prompts just hit enter (Container Registry, git server )</p>
+</div>
+</div>
 </div>
 
 
@@ -375,7 +413,7 @@ login1$
         <a href="emacs.html" class="btn btn-neutral float-right" title="Emacs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="resources.html" class="btn btn-neutral float-left" title="Additional Resources" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="lecture_videos.html" class="btn btn-neutral float-left" title="Lecture Videos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -384,11 +422,19 @@ login1$
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Peter Mackenzie-Helnwein, Frank McKenna
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -399,7 +445,6 @@ login1$
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {
