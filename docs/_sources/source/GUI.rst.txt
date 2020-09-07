@@ -56,10 +56,15 @@ Qt installation (step 2).
 Quick Demonstration
 ====================
 
-Lecture video will come here
+
+.. raw:: html
+
+       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/QR94VsXgTmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
 
 Resources
----------------
+====================
 
 1. Getting Qt
 
@@ -72,4 +77,8 @@ Resources
 3. Our favorite tutorials
 
     * Qt5 quick start tutorial (C++): http://zetcode.com/gui/qt5/
-    * pyqt5 quick start tutorial (python++): http://zetcode.com/gui/pyqt5/ 
+    * pyqt5 quick start tutorial (python): http://zetcode.com/gui/pyqt5/ 
+
+4. `Archived course notes from our 2018 Bootcamp <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/NHERI-SimCenter-GUI-Qt.pdf>`_
+
+
