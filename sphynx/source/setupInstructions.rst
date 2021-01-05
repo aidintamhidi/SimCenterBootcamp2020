@@ -4,19 +4,16 @@
 Setup Instructions
 ******************
 
-The following videos demonstrate these installation instructions on brand new Windows 10 and MacOS Catalina systems.
+
+Windows Computer
+================
+
+The following video demonstrates these installation instructions on a brand new Windows 10 system.
 
 .. raw:: html
 
    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ywUDEEra0ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-.. raw:: html
-
-   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/XzGqKSwnCTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-
-Windows Computer
-================
 
 These instructions are for a Windows 10 computer. You need to install Python, ssh and git.
 
@@ -38,11 +35,11 @@ Install git from the `git download page <https://git-scm.com/downloads>`_. Once 
 
 .. code-block:: python
    
-   git clone https://github.com/fmckenna/SimCenterBootcamp2020.git
+   git clone https://github.com/YOUR-GIT-LOGIN/SimCenterBootcamp2020.git
 
 .. warning::
 
-   replace fmckenna with your github login name
+   replace YOUR-GIT-LOGIN with your github login name
 
 .. note::
 
@@ -103,6 +100,14 @@ This should open the browser running jupyter-notebook. Select any of the .ipynb 
 MacOS Computer
 ==============
 
+The following video demonstrates these installation instructions on a brand new MacOS Catalina system.
+Installation on MacOS Big Sur follows identical steps.
+
+.. raw:: html
+
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/XzGqKSwnCTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
 Fork the SimCenter Code Repository
 ----------------------------------
 
@@ -117,11 +122,11 @@ There are a number of ways to install the source code management system `**git**
 
 .. code-block:: python
    
-   git clone https://github.com/fmckenna/SimCenterBootcamp2020.git
+   git clone https://github.com/YOUR-GIT-LOGIN/SimCenterBootcamp2020.git
 
 .. warning::
 
-   replace fmckenna with your github login name
+   replace YOUR-GIT-LOGIN with your github login name
 
 Install Python on a Mac
 -----------------------
