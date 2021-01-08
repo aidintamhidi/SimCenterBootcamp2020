@@ -4,7 +4,7 @@ Syllabus
 
 .. raw:: HTML
 
-	<p><font color=red> last updated: Dec 14, 2020 </font></p>
+	<p><font color=red> last updated: Jan 8, 2021 </font></p>
 
 Welcome to the SimCenter Programming Bootcamp 2020.  Due to COVID-19, this year's offering will be solely online. A drawback of an online offering is the lack of interaction among the participants. The SimCenter team is putting in all effort to recreate some
 of the community building benefits through discussion sessions and social time.
@@ -95,17 +95,20 @@ Introduction to C - Jan 4-8, 2021
   * C: File I/O
   * C: User Defined Datatypes
     
-* Day 8 - `Parallel Programming <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Parallel.pdf>`_
+* Day 8 - `C: Datatypes & C++ <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/C-Day3.pdf>`_
+
+  * Object Oriented Programming
+  * C++
+  * C++ Example
+
+
+* Day 9 - `Parallel Programming <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Parallel.pdf>`_
 
   * Parallel Computers  
   * MessagePassing & MPI
   * Shared Memory & OpenMP
 
-* Day 9 - `C: Datatypes & C++ <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Abstraction.pdf>`_
-
-  * Object Oriented Programming
-  * C++
-
+    
 
 * Day 10 - `DesignSafe & Agave <https://github.com/NHERI-SimCenter/SimCenterBootcamp2020/blob/master/presentations/Agave.pdf>`_
 
